@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(to right, #ffcc00, #ff3300);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.search__section * {
+  margin-bottom: 5px;
+  color: #0033cc;
+}
+
+.search__section h2:nth-child(2) {
+  margin-top: -13px;
+  transform: scaleY(-1);
+  color: #001249;
+}
+
+.genre {
+  border-top: solid black;
+color: #0033cc;
+}
